@@ -288,7 +288,8 @@ width: 100%;}
 
 .second-list {
     display: flex;
-    gap: 24px;}
+    gap: 24px;
+    flex-wrap: wrap;}
 
 .advantage-title {
     font-style: normal;
@@ -341,7 +342,8 @@ img{display: block;} */
 
 .team-list{
     display: flex;
-    gap: 24px;}
+    gap: 72px;
+    flex-wrap: wrap;}
 
 .team-title{font-style: normal;
     font-weight: 700;
@@ -360,6 +362,13 @@ img{display: block;} */
     background-color: var(--text-color-light);
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;} 
+
+img {
+    display: block;
+    align-items: center;
+    max-width: 100%;
+    height: auto;
+    }
 
 .name{padding: 32px 16px;}
 
