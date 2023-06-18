@@ -293,15 +293,17 @@ width: 100%;}
 
 .advantage-title {
     font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     color:var(--text-color-navy);
     margin-bottom: 8px;
-    margin-top: 8px;}
+    margin-top: 8px;
+    text-transform: capitalize;}
 
-.advantage-text {
+.advantage-text {font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -365,7 +367,6 @@ img{display: block;} */
 
 img {
     display: block;
-    align-items: center;
     max-width: 100%;
     height: auto;
     }
@@ -382,7 +383,7 @@ img {
     color:var(--color-background);
     margin-bottom: 8px;}
 
-.our-team-text {
+.our-team-text { font-weight: 400;
     font-style: normal;
     font-size: 16px;
     line-height: 1.5;
@@ -951,3 +952,18 @@ img {display: block;
 .link-port:focus .overlay {
     transform: translate(0,0);
     }
+
+    /************MOBILE************/
+
+    @media screen and (min-width: 428px ) {
+        .container{ max-width: 426px;}    
+    }
+
+
+   /************TABLET************/
+
+        @media screen and (min-width: 768px) {
+            .container {
+                max-width: 766px;
+            }
+        }
