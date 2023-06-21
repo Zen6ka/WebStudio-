@@ -1305,8 +1305,10 @@ screen and (min-resolution: 2dppx) {
         font-size: 26px;
     }
 
-    .section-what {
-            display: none;}   
+   /*======ADVANTAGE====*/
+   .section-what {
+       display: none;
+   }
 }
 
 
@@ -1327,6 +1329,7 @@ screen and (min-resolution: 2dppx) {
 
 /*Hero*/
     .baner {
+        max-width: 1157px;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office-tablet.jpg);
         }
 
@@ -1362,6 +1365,12 @@ screen and (min-resolution: 2dppx) {
 
     .our-team-card {
         width: calc((100% - 24px) / 2);}
+
+    .team-img {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
     
 /* =======Customers======= */
     .customers .container {
