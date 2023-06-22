@@ -1283,9 +1283,13 @@ img {
 /************MOBILE************/
 @media screen and (min-width: 428px) {
     .container {
-        max-width: 767px;}
+        max-width: 426px;}
 
 /* =======Mobile baner (HERO)======= */
+
+.baner .container {
+    max-width: 767px;
+}
 
 @media screen and (min-device-pixel-ratio: 2),
 screen and (min-resolution: 192dpi),
@@ -1309,7 +1313,7 @@ screen and (min-resolution: 2dppx) {
 
 @media screen and (min-width: 768px) {
     .container {
-        max-width: 1157px;}
+        max-width: 766px;}
 
  /* =======Mobile Hamburger Menu======= */
  .mobile-menu-open-btn {
@@ -1325,6 +1329,9 @@ screen and (min-resolution: 2dppx) {
         max-width: 1157px;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office-tablet.jpg);
         }
+
+    .baner .container {
+    max-width: 1157px;}
 
 
 @media screen and (min-device-pixel-ratio: 2),
@@ -1350,9 +1357,10 @@ screen and (min-resolution: 2dppx) {
 }
 
  /* =======Our team======= */
-    .section-team.container {
-        max-width: 582px;}
 
+    .section-team .container {
+     max-width: 582px;}
+    
     .team-list {
         gap: 64px 24px;}
 
@@ -1467,8 +1475,8 @@ screen and (min-resolution: 2dppx) {
         padding-top: 120px;
         padding-bottom: 120px;}
 
-    .section-team.container {
-    max-width: 582px;}
+    .section-team .container {
+        max-width: 1158px;}
 
     .team-list {
         gap: 24px;}
