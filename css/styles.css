@@ -110,7 +110,6 @@ img {
     text-decoration: none;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    margin-right: 76px;
     padding: 24px 0;
 }
 
@@ -336,7 +335,7 @@ img {
 /* Baner */
 
 .baner {
-    max-width: 428px;
+    max-width: 767px;
     background-color: var(--text-color-navy);
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
     background-repeat: no-repeat;
@@ -393,6 +392,7 @@ img {
 .second-list {
     display: flex;
     gap: 72px;
+    
 }
 
 .list-advantage {
@@ -1180,7 +1180,9 @@ img {
     font-weight: 500;}
 
 /* =======What are we doing======= */
-
+.section-what {
+    display: none;
+}
 
 /* =======Our team======= */
     .team-list {
@@ -1281,7 +1283,7 @@ img {
 /************MOBILE************/
 @media screen and (min-width: 428px) {
     .container {
-        max-width: 426px;}
+        max-width: 767px;}
 
 /* =======Mobile baner (HERO)======= */
 
@@ -1291,10 +1293,6 @@ screen and (min-resolution: 2dppx) {
     .baner {background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/mobile/baner-mobile@2x.jpg);}
     }
 
-/*======ADVANTAGE====*/
-.section-what {
-    display: none;
-}
 }
 
 
@@ -1304,11 +1302,6 @@ screen and (min-resolution: 2dppx) {
     .mobile-tel-link {
         font-size: 26px;
     }
-
-   /*======ADVANTAGE====*/
-   .section-what {
-       display: none;
-   }
 }
 
 
@@ -1316,7 +1309,7 @@ screen and (min-resolution: 2dppx) {
 
 @media screen and (min-width: 768px) {
     .container {
-        max-width: 766px;}
+        max-width: 1157px;}
 
  /* =======Mobile Hamburger Menu======= */
  .mobile-menu-open-btn {
@@ -1474,8 +1467,8 @@ screen and (min-resolution: 2dppx) {
         padding-top: 120px;
         padding-bottom: 120px;}
 
-    .section-team .container {
-        max-width: 1158px;}
+    .section-team.container {
+    max-width: 582px;}
 
     .team-list {
         gap: 24px;}
