@@ -1262,7 +1262,9 @@ img {
 .list-portfolio{flex-direction: column;
         row-gap: 48px;
 }
-
+.list-port{
+    max-width: 360px;
+}
 }
  
 /* =======Mobile Hamburger Menu======= */

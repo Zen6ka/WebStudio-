@@ -35,7 +35,25 @@
             </li>
          </ul>
       </nav>
+      <!-- Mobile Menu Button -->
+      <button type="button" class="mobile-menu-open-btn" data-menu-open>
+       <svg width="32" height="22" viewBox="0 0 32 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <g clip-path="url(#clip0_297053_2156)">
+      <path d="M1.34766 20.0431H30.8861M1.34766 10.7354H30.8861M1.34766 1.42773H30.8861" stroke="#2E2F42"
+                              stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                  </g>
+      <defs>
+      <clipPath id="clip0_297053_2156">
+      <rect width="32" height="22" fill="white" />
+      </clipPath>
+</defs>
+</svg>
+            <!-- <svg width="32" height="22">
+              <use href="./images/icons.svg#icon-menu-hamburger"></use>
+          </svg>-->
+      </button>
 
+<!-- Address -->
       <address class="header-contacts">
          <ul class="contact-nav list">
             <li>
@@ -47,6 +65,77 @@
          </ul>
       </address>
    </div>
+
+<!-- Mobile Hamburger Menu -->
+<div class="mobile-menu-wrapper is-hidden" data-menu>
+      <div class="mobile-menu">
+            <button type="button" class="mobile-menu-close-btn" data-menu-close>
+                  <svg class="menu-close-btn-icon" width="8" height="8">
+                        <use href="./images/icons.svg#icon-close-modal"></use>
+                  </svg>
+            </button>
+
+            <ul class="list mobile-menu-list">
+                  <li class="mobile-menu-list-item">
+                        <a href="./index.html" class="link mobile-menu-list-link current-mobile-link">Studio</a>
+                  </li>
+
+                  <li class="mobile-menu-list-item">
+                        <a href="./portfolio.html" class="link mobile-menu-list-link">Portfolio</a>
+                  </li>
+
+                  <li class="mobile-menu-list-item">
+                        <a href="" class="link mobile-menu-list-link">Contacts</a>
+                  </li>
+            </ul>
+
+            <div>
+                  <ul class="list mobile-address-list">
+                  <li class="mobile-tel-item">
+                  <a href="tel:+110001111111" class="link mobile-tel-link">+11 (000) 111-11-11</a>
+      </li>
+
+      <li>
+            <a href="mailto:info@devstudio.com" class="link mobile-email-link">info@devstudio.com</a>
+      </li>
+      </ul>
+
+            <ul class="list mobile-social-list">
+      <li class="mobile-social-item">
+      <a href="" class="link mobile-social-link">
+      <svg class="mobile-social-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-instagr"></use>
+            </svg>
+      </a>
+      </li>
+
+      <li class="mobile-social-item">
+            <a href="" class="link mobile-social-link">
+      <svg class="mobile-social-icon" width="24" height="24">
+      <use href="./images/icons.svg#icon-bird"></use>
+      </svg>
+            </a>
+      </li>
+
+      <li class="mobile-social-item">
+            <a href="" class="link mobile-social-link">
+      <svg class="mobile-social-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-facebook"></use>
+      </svg>
+      </a>
+      </li>
+
+      <li class="mobile-social-item">
+            <a href="" class="link mobile-social-link">
+      <svg class="mobile-social-icon" width="24" height="24">
+      <use href="./images/icons.svg#icon-linkedin"></use>
+      </svg>
+      </a>
+      </li>
+      </ul>
+      </div>
+      </div>
+</div>
 </header>
 <!-- Main -->
 <main>
